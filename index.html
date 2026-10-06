@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Desenvolvedor Front-End</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">Dev<span>Portfólio</span></a>
+            <ul class="nav-list">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Hero -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Olá, eu sou um <br><span>Desenvolvedor Front-End</span></h1>
+                <p>Construindo experiências digitais modernas, limpas e interativas com HTML, CSS e JavaScript.</p>
+                <a href="#projetos" class="btn">Ver Meus Projetos</a>
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre" class="about">
+            <h2>Sobre Mim</h2>
+            <p>Sou um entusiasta da tecnologia focado em transformar ideias em códigos eficientes. Busco sempre criar
+                interfaces intuitivas de alta performance e totalmente responsivas.</p>
+            <div class="skills">
+                <span class="skill-badge">HTML5</span>
+                <span class="skill-badge">CSS3</span>
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">Git & GitHub</span>
+            </div>
+        </section>
+
+        <!-- Seção Projetos -->
+        <section id="projetos" class="projects">
+            <h2>Meus Projetos Recentes</h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Os cards de projeto serão inseridos dinamicamente via JS -->
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" class="contact">
+            <h2>Vamos Conversar?</h2>
+            <p>Se você tem um projeto em mente ou quer apenas bater um papo sobre tecnologia, mande uma mensagem.</p>
+            <form id="contact-form" class="contact-form">
+                <input type="text" id="name" placeholder="Seu Nome" required>
+                <input type="email" id="email" placeholder="Seu E-mail" required>
+                <textarea id="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 DevPortfólio. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
